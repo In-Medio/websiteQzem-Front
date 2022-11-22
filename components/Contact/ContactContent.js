@@ -10,8 +10,7 @@ class ContactContent extends Component {
                         <div className="row">
                             <div className="col-lg-6 col-md-12">
                                 <div className="section-title">
-                                    <span className="sub-title">Contacteer Ons</span>
-                                    <h2>Zeg hallo</h2>
+                                    <h2>Contacteer Ons</h2>
                                     <p> Uw e-mailadres word niet gedeeld. Wij bezorgen u geen spam!</p>
                                 </div>
 
@@ -22,7 +21,7 @@ class ContactContent extends Component {
                                                 <i className="flaticon-location"></i>
                                             </div>
                                             <span>Adres</span>
-                                            Pastorijstraat 30, 3530 Houthalen-Helchteren, België
+                                            Europalaan 2A Bus: 201, 3650 Dilsen-Stokkem, België
                                         </li>
 
                                         <li>
@@ -38,11 +37,12 @@ class ContactContent extends Component {
                                                 <i className="fas fa-phone-volume"></i>
                                             </div>
                                             <span>Telefoon</span>
+                                            +32 (0) 89 59 00 68 <br></br>
                                             +32 (0) 474 13 77 76
                                         </li>
                                     </ul>
 
-                                    <ul className="social">
+                                    {/* <ul className="social">
                                         <li>
                                             <a href="https://www.facebook.com/Qzem.be/" target="_blank">
                                                 <i className="fab fa-facebook-f"></i>
@@ -53,7 +53,7 @@ class ContactContent extends Component {
                                                 <i className="fab fa-linkedin-in"></i>
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
 

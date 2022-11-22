@@ -103,13 +103,7 @@ class Banner extends Component {
                                             <li>
                                                 <i className="flaticon-location"></i>
                                                 <span>Adres</span>
-                                                Pastorijstraat 30, 3550 Houthalen-Helchteren
-                                            </li>
-
-                                            <li>
-                                                <i className="flaticon-calendar"></i>
-                                                <span>Openingstijden</span>
-                                                Ma - Vrij, 08:00 - 17:00
+                                                Europalaan 2A Bus: 201, 3650 Dilsen-Stokkem
                                             </li>
 
                                             <li>

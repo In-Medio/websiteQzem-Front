@@ -81,7 +81,7 @@ class ServicesContent extends Component {
                             </div>
 
                             <div className="services-details-image">
-                                <img src="/images/services/single-service1.jpg" alt="image" />
+                                <img  className="services-image" src="/images/services/services3.jpg" alt="image" />
                             </div>
                         </div>
                         

@@ -2436,6 +2436,11 @@ Services Details Area CSS
   padding-left: 15px;
 }
 
+.services-image {
+  width: 643px;
+  height: 586.922px;
+}
+
 /*================================================
 Partner Area CSS
 =================================================*/
@@ -2920,6 +2925,13 @@ Pricing Area CSS
 
 .single-pricing-box .pricing-features-list li:last-child {
   margin-bottom: 0;
+}
+
+.payroll-processing-image {
+  width: 600px;
+  height: 400px;
+  opacity: 0.8;
+  margin-left: 5px;
 }
 
 /*================================================
@@ -5089,12 +5101,15 @@ Sidebar Widget Area CSS
 Subscribe Area CSS
 =================================================*/
 .subscribe-area {
+  width: 1000px;
+  display: flex;
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #493f49;
 }
 
 .subscribe-content h2 {
+  display: block;
   margin-bottom: 0;
   color: #ffffff;
   font-size: 32px;
@@ -5109,16 +5124,40 @@ Subscribe Area CSS
 }
 
 .subscribe-form {
-  padding-left: 30px;
+  width: 850px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.newsletter-form {
+  width: 100%;
 }
 
 .subscribe-form form {
   position: relative;
 }
 
-.subscribe-form form .input-newsletter {
-  display: block;
-  width: 100%;
+.input-name-newsletter {
+  display: inline-block;
+  width: 25%;
+  color: #641d28;
+  height: 65px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 20px;
+  outline: 0;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-right: 15px;
+}
+
+.subscribe-form form .input-email-newsletter {
+  display: inline-block;
+  width: 55%;
   color: #641d28;
   height: 65px;
   border-radius: 5px;
@@ -5132,15 +5171,15 @@ Subscribe Area CSS
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.subscribe-form form .input-newsletter::-webkit-input-placeholder {
+.subscribe-form form .input-email-newsletter::-webkit-input-placeholder {
   color: #99afc3;
 }
 
-.subscribe-form form .input-newsletter:-ms-input-placeholder {
+.subscribe-form form .input-email-newsletter:-ms-input-placeholder {
   color: #99afc3;
 }
 
-.subscribe-form form .input-newsletter::-ms-input-placeholder {
+.subscribe-form form .input-email-newsletter::-ms-input-placeholder {
   color: #99afc3;
 }
 
@@ -5150,8 +5189,8 @@ Subscribe Area CSS
 
 .subscribe-form form button {
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 160px;
+  top: 6px;
   background-color: rgb(218, 59, 59);
   color: #ffffff;
   border: none;
@@ -5648,6 +5687,13 @@ Footer Area CSS
   margin-left: 0;
 }
 
+.first-number-tab {
+  margin-left: 3px;
+}
+
+.second-number-tab {
+  margin-left: 68px;
+}
 /*================================================
 Go Top CSS
 =================================================*/

@@ -11,14 +11,13 @@ module.exports = {
     },
     images: {
         domains: ['localhost']
-
-        // Need to change to remotePatterns when deploying webapplication
-        // remotePatterns: [
-        //     {
-        //       protocol: 'https',
-        //       hostname: 'example.com',
-        //       port: '',
-        //       pathname: '/account123/**',
-        //     }
     },
+    async rewrites() {
+        return [
+            {
+                source: '/api/contact',
+                destination: '/'
+            }
+        ]
+    }
 }

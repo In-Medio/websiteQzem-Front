@@ -20,7 +20,7 @@ class PriceTable extends Component {
                                     </div>
 
                                     <div className="price">
-                                        <sub>€</sub>160
+                                        <sub></sub>
                                     </div>
 
                                     <ul className="pricing-features-list">
@@ -30,7 +30,6 @@ class PriceTable extends Component {
                                         <li><i className="flaticon-check-mark"></i> Sociale balans</li>
                                         <li><i className="flaticon-check-mark"></i> Fiscaal Attest</li>
                                         <li><i className="flaticon-check-mark"></i> Bestelling maaltijd- /ecocheques </li>
-                                        {/* <li><i className="flaticon-check-mark"></i> Dimona-aangifte </li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -63,7 +62,7 @@ class PriceTable extends Component {
                                     </div>
 
                                     <div className="price">
-                                        Gratis
+                                        <sub></sub>
                                     </div>
 
                                     <ul className="pricing-features-list">

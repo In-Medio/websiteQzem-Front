@@ -24,14 +24,8 @@ class Prices extends Component {
                                     </div>
 
                                     <div className="price">
-                                        <sub>€</sub>160
+                                        <sub></sub>
                                     </div>
-
-                                    {/* <div className="book-now-btn">
-                                        <Link href="#">
-                                            <a className="default-btn">Meer informatie <span></span></a>
-                                        </Link>
-                                    </div> */}
 
                                     <ul className="pricing-features-list">
                                         <li><i className="flaticon-check-mark"></i>Loonverwerking</li>
@@ -40,7 +34,6 @@ class Prices extends Component {
                                         <li><i className="flaticon-check-mark"></i>Sociale balans</li>
                                         <li><i className="flaticon-check-mark"></i>Fiscaal Attest</li>
                                         <li><i className="flaticon-check-mark"></i>Bestelling maaltijd- /ecocheques </li>
-                                        {/* <li><i className="flaticon-check-mark"></i> Dimona-aangifte </li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -54,12 +47,6 @@ class Prices extends Component {
                                     <div className="price">
                                         <sub>€</sub>260
                                     </div>
-
-                                    {/* <div className="book-now-btn">
-                                        <Link href="#">
-                                            <a className="default-btn">Meer informatie <span></span></a>
-                                        </Link>
-                                    </div> */}
 
                                     <ul className="pricing-features-list">
                                         <li><i className="flaticon-check-mark"></i>Aanvraag RSZ-nummer</li>
@@ -79,14 +66,8 @@ class Prices extends Component {
                                     </div>
 
                                     <div className="price">
-                                        Gratis
+                                        <sub></sub>
                                     </div>
-
-                                    {/* <div className="book-now-btn">
-                                        <Link href="#">
-                                            <a className="default-btn">Meer informatie <span></span></a>
-                                        </Link>
-                                    </div> */}
 
                                     <ul className="pricing-features-list">
                                         <li><i className="flaticon-check-mark"></i> Graag helpen wij u verder met eventuele vragen </li>
@@ -126,7 +107,7 @@ class Prices extends Component {
                                                         </ul>
                                                         <br></br>
                                                         <p>
-                                                            Heeft u meer werknemers in dienst of bent u geprikkeld door ons voorstel, neem dan vrijblijvend contact met Carine Purnot via mail  op carine.purnot@qzem.be of GSM 32 (0)474/137 776
+                                                            Heeft u meer werknemers in dienst of bent u geprikkeld door ons voorstel, neem dan vrijblijvend contact met Carine Purnot via mail op carine.purnot@qzem.be of GSM +32 (0) 474 13 77 76.
                                                         </p>
 
                                                     </div>
@@ -134,7 +115,7 @@ class Prices extends Component {
 
                                                 <div className="col-lg-6 col-md-12 image">
                                                     <div className="tabs_item_image">
-                                                        <img src="/images/floor-img5.png" alt="image" />
+                                                        <img className="payroll-processing-image" src="/images/gallery/gallery9.jpg" alt="image" />
                                                     </div>
                                                 </div>
                                             </div>
