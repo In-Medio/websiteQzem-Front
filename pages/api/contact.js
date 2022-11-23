@@ -1,22 +1,15 @@
-const nodemailer = require('nodemailer');
-const mg = require('nodemailer-mailgun-transport');
-
-const auth = {
-  auth: {
-    api_key: 'key-54nzq1lyxxczwsnrh0jdt-v68uz2w6m7',
-    domain: 'expresso.qzem.be'
-  }
-}
-
-const nodemailerMailgun = nodemailer.createTransport(mg(auth));
+const formData = require('form-data');
+const Mailgun = require('mailgun.js');
+const mailgun = new Mailgun(formData);
+const mg = mailgun.client({ username: 'api', key: process.env.MAILGUN_API_KEY, url: 'https://api.eu.mailgun.net' });
 
 export default async (req, res) => {
     console.log(req.body);
     const {name, email, number, subject, text} = req.body;
 
-    nodemailerMailgun.sendMail({
-        to: 'info@qzem.be',
+    mg.messages.create('expresso.qzem.be', {
         from: email,
+        to: 'info@qzem.be',
         subject: subject,
         text: text,
         html: `
@@ -25,15 +18,16 @@ export default async (req, res) => {
             <b>Onderwerp:</b> ${subject} <br /> 
             <b>Bericht:</b> ${text} 
         ` 
-      }, (error, body) => {
-        if (error) {
-          console.log(error);
-          res.status(500).send({ message: 'Probleem met het verzenden email.' });
-        } else {
-          console.log(body);
+      })
+      .then(body => {
+        console.log(body);
           res.status(200).send({ message: 'Email is verzonden.' });
         }
-      }
-    );
+      )
+      .catch(error => {
+        console.log(error);
+          res.status(500).send({ message: 'Probleem met het verzenden email.' });
+        }
+      );
 }
 

@@ -11,13 +11,5 @@ module.exports = {
     },
     images: {
         domains: ['localhost']
-    },
-    async rewrites() {
-        return [
-            {
-                source: '/api/contact',
-                destination: '/'
-            }
-        ]
     }
 }
