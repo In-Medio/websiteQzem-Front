@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import axios from 'axios'
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
-const MySwal = withReactContent(Swal)
-import baseUrl from '../../utils/baseUrl'
+import React, { useState } from 'react';
+import axios from 'axios';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+const MySwal = withReactContent(Swal);
+import baseUrl from '../../utils/baseUrl';
 
 const alertContent = () => {
     MySwal.fire({
-        title: 'Hartelijk bedankt voor uw bericht!',
+        title: 'Bedankt voor uw bericht!',
         text: 'Wij komen zo snel mogelijk bij u terug.',
         icon: 'success',
         timer: 2000,
@@ -26,7 +26,6 @@ const INITIAL_STATE = {
 };
 
 const ContactForm = () => {
-
     const [contact, setContact] = useState(INITIAL_STATE);
 
     const handleChange = e => {

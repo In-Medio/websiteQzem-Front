@@ -272,7 +272,7 @@
   right: auto;
 }
 
-[dir="rtl"] .subscribe-form form .input-newsletter {
+[dir="rtl"] .subscribe-form form .input-name-newsletter .input-email-newsletter {
   padding-right: 15px;
   padding-left: 0;
 }

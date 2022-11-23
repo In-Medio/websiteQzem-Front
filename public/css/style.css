@@ -5101,8 +5101,6 @@ Sidebar Widget Area CSS
 Subscribe Area CSS
 =================================================*/
 .subscribe-area {
-  width: 1000px;
-  display: flex;
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #493f49;
@@ -5124,24 +5122,20 @@ Subscribe Area CSS
 }
 
 .subscribe-form {
-  width: 850px;
   display: flex;
   justify-content: flex-start;
   margin-top: 20px;
 }
 
-.newsletter-form {
-  width: 100%;
-}
-
 .subscribe-form form {
+  width: 100%;
   position: relative;
 }
 
-.input-name-newsletter {
+.subscribe-form form .input-name-newsletter {
   display: inline-block;
   width: 25%;
-  color: #641d28;
+  color: rgb(33, 37, 41);
   height: 65px;
   border-radius: 5px;
   border: none;
@@ -5150,15 +5144,15 @@ Subscribe Area CSS
   -webkit-box-shadow: unset !important;
           box-shadow: unset !important;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "IBM Plex Sans", sans-serif;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .subscribe-form form .input-email-newsletter {
   display: inline-block;
   width: 55%;
-  color: #641d28;
+  color: rgb(33, 37, 41);
   height: 65px;
   border-radius: 5px;
   border: none;
@@ -5167,35 +5161,30 @@ Subscribe Area CSS
   -webkit-box-shadow: unset !important;
           box-shadow: unset !important;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "IBM Plex Sans", sans-serif;
+  margin-right: 10px;
 }
 
-.subscribe-form form .input-email-newsletter::-webkit-input-placeholder {
+.subscribe-form form .input-name-newsletter::-webkit-input-placeholder .input-email-newsletter::-webkit-input-placeholder {
   color: #99afc3;
 }
 
-.subscribe-form form .input-email-newsletter:-ms-input-placeholder {
+.subscribe-form form .input-name-newsletter::-ms-input-placeholder .input-email-newsletter::-ms-input-placeholder {
   color: #99afc3;
 }
 
-.subscribe-form form .input-email-newsletter::-ms-input-placeholder {
-  color: #99afc3;
-}
-
-.subscribe-form form .input-newsletter::placeholder {
+.subscribe-form form .input-name-newsletter::placeholder .input-email-newsletter::placeholder {
   color: #99afc3;
 }
 
 .subscribe-form form button {
-  position: absolute;
-  right: 160px;
-  top: 6px;
+  display: inline-block;
   background-color: rgb(218, 59, 59);
   color: #ffffff;
   border: none;
   border-radius: 5px;
-  height: 55px;
+  height: 68px;
   line-height: 55px;
   padding: 0 30px;
   letter-spacing: .5px;
@@ -5476,6 +5465,10 @@ Footer Area CSS
   background-color: rgb(218, 59, 59);
   content: '';
   position: absolute;
+}
+
+.single-footer-widget .logo {
+  margin-left: 35%;
 }
 
 .single-footer-widget .logo a {

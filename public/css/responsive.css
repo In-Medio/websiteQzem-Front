@@ -73,7 +73,7 @@
     display: block;
     width: 100%;
     font-size: 13px;
-    margin: 0;
+    margin-top: 15px;
   }
   .main-banner-content .btn-box .optional-btn {
     margin-top: 12px;
@@ -542,18 +542,16 @@
   }
   .subscribe-content h2 {
     font-size: 26px;
+    margin-left: 20px;
   }
   .subscribe-form {
     padding-left: 0;
     text-align: center;
   }
   .subscribe-form form button {
-    position: relative;
-    right: 0;
-    top: 0;
-    margin-top: 10px;
     display: block;
-    width: 100%;
+    margin-top: 15px;
+    margin-left: 35px;
   }
   .page-title-area {
     height: 100%;
@@ -1102,12 +1100,15 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+  .subscribe-content h2 {
+    margin-right: 20px;
+  }
+
   .subscribe-form form button {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    margin-top: 0;
-    display: inline-block;
+    margin-top: 15px;
+    margin-left: 42px;
+    display: block;
     width: auto;
   }
   .copyright-area {
@@ -1117,7 +1118,7 @@
     text-align: right;
     margin-top: 0;
   }
-  .subscribe-form form form .input-newsletter {
+  .subscribe-form form form .input-name-newsletter .input-email-newsletter {
     height: 60px;
   }
 }
@@ -1387,14 +1388,23 @@
     padding-left: 0;
     margin-top: 30px;
   }
-  .subscribe-content {
+
+  .subscribe-content h2 {
     text-align: center;
+    margin-right: 68px;
     margin-bottom: 25px;
   }
+  
   .subscribe-form {
     padding-left: 0;
     text-align: center;
   }
+
+  .subscribe-form form button {
+    margin-top: 15px;
+    margin-right: 385px;
+  }
+
   .tuam-nav .navbar {
     padding: 0;
   }
@@ -1632,9 +1642,15 @@
   single-services-box .read-more-btn {
     font-size: 15px;
   }
+
   .subscribe-content h2 {
     font-size: 30px;
   }
+
+  .subscribe-form form button {
+    margin-top: 15px;
+  }
+
   .single-services-box h3 {
     font-size: 20px;
   }
@@ -1662,6 +1678,10 @@
   .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
     margin-left: 20px;
     padding: 15px 20px;
+  }
+
+  .subscribe-form form button {
+    margin-top: 15px;
   }
 }
 
