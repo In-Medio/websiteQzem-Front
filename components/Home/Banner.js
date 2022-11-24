@@ -10,8 +10,8 @@ const options = {
     autoplayHoverPause: true,
     autoplay: true,
     smartSpeed: 1000,
-    animateOut: "slideOutDown",
-    animateIn: "slideInDown",
+    animateOut: "slideOutRight",
+    animateIn: "slideInLeft",
     items: 1,
     navText: [
         "<i class='flaticon-left-chevron'></i>",
@@ -20,7 +20,6 @@ const options = {
 }
 
 class Banner extends Component {
-
     _isMounted = false;
     state = {
         display:false,

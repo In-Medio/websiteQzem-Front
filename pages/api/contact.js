@@ -9,7 +9,7 @@ export default async (req, res) => {
 
     mg.messages.create('expresso.qzem.be', {
         from: email,
-        to: 'ralph.magnette@in-medio.be',
+        to: 'info@qzem.be',
         subject: subject,
         text: text,
         html: `

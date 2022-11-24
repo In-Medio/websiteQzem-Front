@@ -10,9 +10,16 @@ const alertContent = () => {
       title: 'Uw bent succesvol ingeschreven voor de niewsbrief!',
       text: 'Wij houden u via deze nieuwsbrief op de hoogte van de laatste verandering.',
       icon: 'success',
-      timer: 2000,
-      timerProgressBar: true,
-      showConfirmButton: false,
+      showConfirmButton: true,
+  })
+}
+
+const errorContent = () => {
+  MySwal.fire({
+      title: 'Dit email adres is al geregistreerd voor de nieuwsbrief!',
+      text: 'Kies een ander email adres om u in te schrijven voor de nieuwsbrief.',
+      icon: 'error',
+      showConfirmButton: true,
   })
 }
 
@@ -28,13 +35,12 @@ const ContactNewsLetter = () => {
   const handleChange = e => {
       const { name, value } = e.target;
       setContact(prevState => ({ ...prevState, [name]: value }));
-      // console.log(contact)
   }
 
   const handleSubmit = async e => {
       e.preventDefault();
       try {
-          const url = `${baseUrl}/api/newsletter`;
+          const url = `${baseUrl}/api/newsletter/`;
           const { name, email } = contact;
           const payload = { name, email };
           const response = await axios.post(url, payload);
@@ -42,7 +48,7 @@ const ContactNewsLetter = () => {
           setContact(INITIAL_STATE);
           alertContent();
       } catch (error) {
-          console.log(error)
+        errorContent();
       }
   };
 
