@@ -30,7 +30,7 @@ class Prices extends Component {
                                     <ul className="pricing-features-list">
                                         <li><i className="flaticon-check-mark"></i>Loonverwerking</li>
                                         <li><i className="flaticon-check-mark"></i>Arbeidsovereenkomsten</li>
-                                        <li><i className="flaticon-check-mark"></i>Loonbrievent</li>
+                                        <li><i className="flaticon-check-mark"></i>Loonbrieven</li>
                                         <li><i className="flaticon-check-mark"></i>Sociale balans</li>
                                         <li><i className="flaticon-check-mark"></i>Fiscaal Attest</li>
                                         <li><i className="flaticon-check-mark"></i>Bestelling maaltijd- /ecocheques </li>
