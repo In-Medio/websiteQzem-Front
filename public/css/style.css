@@ -5108,7 +5108,7 @@ Subscribe Area CSS
 
 .subscribe-content h2 {
   display: block;
-  margin-bottom: 0;
+  margin: 0;
   color: #ffffff;
   font-size: 32px;
   font-weight: 600;
@@ -5125,6 +5125,7 @@ Subscribe Area CSS
   display: flex;
   justify-content: flex-start;
   margin-top: 20px;
+  margin-left: 0;
 }
 
 .subscribe-form form {
@@ -5445,6 +5446,7 @@ Footer Area CSS
 
 .single-footer-widget {
   margin-bottom: 30px;
+  margin-left: 25%;
 }
 
 .single-footer-widget h3 {
@@ -5465,10 +5467,6 @@ Footer Area CSS
   background-color: rgb(218, 59, 59);
   content: '';
   position: absolute;
-}
-
-.single-footer-widget .logo {
-  margin-left: 35%;
 }
 
 .single-footer-widget .logo a {

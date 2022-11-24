@@ -62,7 +62,7 @@ const ContactNewsLetter = () => {
                 </div>
             </div>
 
-            <div className="row-lg-7 row-md-12">
+            <div className="row-lg-5 row-md-12">
                 <div className="subscribe-form">
                     <form onSubmit={handleSubmit}>
                         <input 
