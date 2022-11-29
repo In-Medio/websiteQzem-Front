@@ -887,6 +887,11 @@
   .footer-area {
     padding-top: 60px;
   }
+
+  .single-footer-widget .logo {
+    margin-left: 42%;
+  }
+
   .single-footer-widget p {
     font-size: 14px;
   }
@@ -1513,6 +1518,10 @@
   .pagination-area {
     margin-top: 20px;
   }
+
+  .single-footer-widget .logo {
+    margin-left: 40%;
+  }
 }
 
 /* Min width: 992px to Max width: 1199px */
@@ -1660,6 +1669,11 @@
   .single-services-box {
     padding: 30px 20px;
   }
+
+  .single-footer-widget .logo {
+    margin-left: 25%;
+  }
+
   .single-team-box .content h3 {
     font-size: 20px;
   }
@@ -1683,6 +1697,10 @@
   .subscribe-form form button {
     margin-top: 15px;
   }
+
+  .single-footer-widget .logo {
+    margin-left: 25%;
+  }
 }
 
 /* Min width: 1550px */
@@ -1692,7 +1710,7 @@
   }
 
   .single-footer-widget .logo {
-    margin-left: 30%;
+    margin-left: 33%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

@@ -102,13 +102,15 @@ class Banner extends Component {
                                             <li>
                                                 <i className="flaticon-location"></i>
                                                 <span>Adres</span>
-                                                Europalaan 2A Bus: 201, 3650 Dilsen-Stokkem
+                                                <a href="https://www.google.com/maps/place/Europalaan+2,+3650+Dilsen-Stokkem" target="_blank">
+                                                    Europalaan 2A Bus: 201, 3650 Dilsen-Stokkem
+                                                </a>
                                             </li>
 
                                             <li>
                                                 <i className="flaticon-email"></i>
                                                 <span>E-mailadres</span>
-                                                <a href="info@qzem.be">info@qzem.be</a>
+                                                <a href="mailto:info@qzem.be">info@qzem.be</a>
                                             </li>
                                         </ul>
                                     </div>

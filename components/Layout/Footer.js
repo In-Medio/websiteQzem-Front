@@ -75,7 +75,7 @@ class Footer extends Component {
 
                                 <ul className="footer-contact-info">
                                     <li><span>Adres:</span> Europalaan 2A Bus: 201, 3650 Dilsen-Stokkem</li>
-                                    <li><span>E-mail:</span> <a href="info@qzem.be"> info@qzem.be</a></li>
+                                    <li><span>E-mail:</span> <a href="mailto:info@qzem.be"> info@qzem.be</a></li>
                                     <li>
                                         <span>Telefoon:</span> 
                                         <a className="first-number-tab" href="tel:+32 89 59 00 68">+32 (0) 89 59 00 68</a> <br></br>

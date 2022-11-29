@@ -23,7 +23,7 @@ function Index({reviews}) {
 
       <PriceTable />
 
-      <ReviewSlider reviews={reviews} />
+      {/* <ReviewSlider reviews={reviews} /> */}
 
       <Contact />
 
@@ -32,15 +32,15 @@ function Index({reviews}) {
   );
 }
 
-export async function getServerSideProps() {
-  const {STRAPI_BASE_URL} = env;
-  const {data} = await axios.get(`${STRAPI_BASE_URL}/api/reviews`);
+// export async function getServerSideProps() {
+//   const {STRAPI_BASE_URL} = env;
+//   const {data} = await axios.get(`${STRAPI_BASE_URL}/api/reviews`);
 
-  return {
-      props: {
-          reviews: data.data,
-      }
-  }
-}
+//   return {
+//       props: {
+//           reviews: data.data,
+//       }
+//   }
+// }
 
 export default Index;
