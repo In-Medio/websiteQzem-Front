@@ -28,7 +28,7 @@ function News({newsArticles}) {
 
 export async function getServerSideProps() {
     const {STRAPI_BASE_URL} = env;
-    const {data} = await axios.get(`${STRAPI_BASE_URL}/api/news-articles?sort=releaseDate&populate=image`);
+    const {data} = await axios.get(`${STRAPI_BASE_URL}/api/news-articles?sort=releaseDate:desc&populate=image`);
 
     return {
         props: {
