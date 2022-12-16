@@ -106,8 +106,8 @@ class Navbar extends Component {
                                                 <i className="flaticon-call"></i>
                                             </div>
                                             Bel ons:
-                                            <span className="number">+32 (0) 89 59 00 68</span>
-                                            <span className="number">+32 (0) 474 13 77 76</span>
+                                            <span className="number"><a href="tel:+3289590068">+32 (0) 89 59 00 68</a></span>
+                                            <span className="number"><a href="tel:+32474137776">+32 (0) 474 13 77 76</a></span>
                                         </div>
                                     </div>
                                 </div>

@@ -11,7 +11,7 @@ class ContactContent extends Component {
                             <div className="col-lg-6 col-md-12">
                                 <div className="section-title">
                                     <h2>Contacteer Ons</h2>
-                                    <p> Uw e-mailadres word niet gedeeld. Wij bezorgen u geen spam!</p>
+                                    <p> Uw e-mailadres wordt niet gedeeld. Wij bezorgen u geen spam!</p>
                                 </div>
 
                                 <div className="contact-info">
@@ -61,7 +61,6 @@ class ContactContent extends Component {
                                 <div className="section-title">
                                     <span className="sub-title">Heeft u een vraag?</span>
                                     <h2>Stuur een berichtje</h2>
-                                    <p> Uw e-mailadres word niet gedeeld. Wij bezorgen u geen spam!</p>
                                 </div>
 
                                 <ContactForm />
