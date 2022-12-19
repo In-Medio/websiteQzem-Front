@@ -98,11 +98,11 @@ class Prices extends Component {
                                                         
                                                         <ul className="features-list">
                                                             <li>Aantal loonverwerkingen per maand <span>Prijs per loonverwerking</span></li>
-                                                            <li>1-5 <span>€28</span></li>
-                                                            <li>6-10 <span>€24</span></li>
-                                                            <li>11-15 <span>€21</span></li>
-                                                            <li>16-30 <span>€19</span></li>
-                                                            <li>31-50 <span>€15</span></li>
+                                                            <li>1-5 <span>€31</span></li>
+                                                            <li>6-10 <span>€26,5</span></li>
+                                                            <li>11-15 <span>€23,5</span></li>
+                                                            <li>16-30 <span>€21</span></li>
+                                                            <li>31-50 <span>€17</span></li>
                                                             <li>50+ <span>Contacteer ons voor een aangepast prijsvoorstel</span></li>
                                                         </ul>
                                                         <br></br>
