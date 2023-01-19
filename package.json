@@ -7,13 +7,13 @@
 		"dev": "next dev",
 		"build": "next build",
 		"export": "next export",
-		"start": "next start -p 5555"
+		"start": "next start"
 	},
 	"author": "Ralph Magnette & Bram Odrossly",
 	"license": "ISC",
 	"dependencies": {
 		"@ckeditor/ckeditor5-react": "^5.0.2",
-		"axios": "^1.2.0",
+		"axios": "^1.2.3",
 		"mailgun.js": "^8.0.6",
 		"next": "^12.3.2",
 		"react": "^17.0.2",
@@ -21,7 +21,7 @@
 		"react-image-lightbox": "^5.1.4",
 		"react-modal-video": "^1.2.10",
 		"react-owl-carousel3": "^2.2.5",
-		"sass": "^1.55.0",
+		"sass": "^1.57.1",
 		"sweetalert2": "^11.4.8",
 		"sweetalert2-react-content": "^4.2.0"
 	}
