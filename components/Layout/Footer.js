@@ -90,19 +90,14 @@ class Footer extends Component {
                     <div className="copyright-area">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-sm-6 col-md-6">
-                                <p><i className="far fa-copyright"></i> 2022 Qzem. Alle rechten voorbehouden.</p>
+                                <p><i className="far fa-copyright"></i> 2023 Qzem. Alle rechten voorbehouden.</p>
                             </div>
 
                             <div className="col-lg-6 col-sm-6 col-md-6">
                                 <ul>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="privacybeleid">
                                             <a>Privacybeleid</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Algemene voorwaarden</a>
                                         </Link>
                                     </li>
                                 </ul>

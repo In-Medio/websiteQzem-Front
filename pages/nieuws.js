@@ -13,13 +13,7 @@ function News({newsArticles}) {
 
             <PageHeader />
 
-            <div className="blog-area ptb-100">
-                <div className="container">
-                    <div className="row">
-                        <NewsCardContent newsArticles={newsArticles} />
-                    </div>
-                </div>
-            </div>
+            <NewsCardContent newsArticles={newsArticles} />
 
             <Footer />
         </>
