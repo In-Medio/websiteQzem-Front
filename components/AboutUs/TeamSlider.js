@@ -94,6 +94,17 @@ class OurTeamSlider extends Component {
                                 </div>
                             </div>
 
+                            <div className="single-team-box">
+                                <div className="image">
+                                    <img src="/images/team/Seren_Uyusmaz_profile.jpg" alt="image" />
+                                </div>
+
+                                <div className="content">
+                                    <h3>Seren Uyusmaz</h3>
+                                    <span>Payroll Consultant</span>
+                                </div>
+                            </div>
+
                         </OwlCarousel> : ''}
                     </div>
                 </section>
